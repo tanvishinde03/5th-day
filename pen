@@ -1,0 +1,8 @@
+#!/bin/bash -X
+ran=$((RANDOM%10))
+echo "$ran"
+#check=$(($2-$1-1));
+#ran1=$((RANDOM%$check))
+#echo $ran1;
+random1=$((RANDOM%6));
+echo "Dice generated: "$random1;
